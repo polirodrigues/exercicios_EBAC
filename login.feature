@@ -23,7 +23,7 @@
             E a senha "abcdf1234"
             Entao deve exibir uma mensagem de alerta "usuário ou senha inválidos"
 
-            Esquema do Cenário: Autenticar multiplos usuários
+            Esquema do Cenário: Cadastro com dados inválidos
             Quando eu digitar <usuario> e <senha>
             E <usuario> ou <senha> estiverem incorretos
             Então deve aparecer a <mensagem> de alerta
@@ -32,7 +32,4 @@
             | usuario                    | senha      | mensagem                     |
             | "fabioalaujo@ebac.com.br"  | "abcd1234" | "usuário ou senha inválidos" |
             | "fabbioaraujo@ebac.com.br" | "abcd1234" | "usuário ou senha inválidos" |
-            | "fabioaraujo@ebac.com.br"  | "abc1234"  | "usuário ou senha inválidos" |
-            | "fabioalaujo@ebac.co.br"   | "abcd"     | "usuário ou senha inválidos" |
-            | "fabio@ebac.com.br"        | "1234"     | "usuário ou senha inválidos" |
-            | "fabioalaujo@ebac.com.br"  | "abc1234"  | "usuário ou senha inválidos" |
+          
