@@ -26,14 +26,14 @@
             Esquema do Cenário: Checkout com email inválido
             Quando eu digitar <email>
             E ele estiver em formato inválido
-            Então deve aparecer a <mensagem> de alerta
+            Então deve aparecer a "email inválido" de alerta
 
             Exemplos:
-            | email                 | mensagem         |
-            | "joao@ebca.com.br"    | "email inválido" |
-            | "jose@ebc.com.br"     | "email inválido" |
-            | "marta@bca.com.br"    | "email inválido" |
-            | "@ebac.com.br"        | "email inválido" |
-            | "paulo@ebac.co.br"    | "email inválido" |
-            | "janete@ebac.com"     | "email inválido" |
-            | "esteban@ebac.com.rb" | "email inválido" |
+            | email                 |
+            | "jose@ebaccom.br"     |
+            | "joao@gmail.com"      |
+            | "marta@bol"           |
+            | "@ebac.com.br"        |
+            | "paulo.ebac.br"       |
+            | "www.ebac.com"        |
+            | "esteban@ebac.com.rb" |
