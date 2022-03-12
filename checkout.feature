@@ -26,7 +26,7 @@
             Esquema do Cenário: Checkout com email inválido
             Quando eu digitar <email>
             E ele estiver em formato inválido
-            Então deve aparecer a "email inválido" de alerta
+            Então deve aparecer a mensagem "email inválido" de alerta
 
             Exemplos:
             | email                 |
